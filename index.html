@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+    <button onclick="changeBackground()">เปลี่ยนพื้นหลัง</button>
+    <button onclick="ClickToAlert()">กดเลย</button>
+    <div id="box">วางเมาส์</div>
+
+    <input type="text" id="textInput" placeholder="พิมพ์อะไรบางอย่าง...">
+    <p id="textOutput"></p>
+    
+    <p id="ByeEvent">สวัสดี</p>
+    <button  id="eventButton">ลองกด(addEventListene)</button>
+
+    <form id="myForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="Message"></p>
+
+    <p>คำนวณพื้นที่</p>
+    <label for="">กรอกค่ารัศมี :</label>
+    <input type="number" name="" id="radius">
+    <button onclick="calculateArea()">คํานวณ</button>
+    <p id="resultArea"></p>
+
+    <label for="age">อายุ :</label>
+    <input type="number" name="" id="age">
+    <button onclick="calculateAge()">คํานวณ</button>
+    <p id="resultAge"></p>
+
+    <label for="Number">ตัวเลข :</label>
+    <input type="number" name="" id="Number">
+    <button onclick="calculateNumber()">คํานวณ</button>
+    <p id="resultNumber"></p>
+
+    <p>1-10</p>
+    <button onclick="showNumber()">แสดงเลข</button>
+    <p id="resultshowNumber"></p>
+
+    <p>รับค่า</p>
+    <button onclick="StartLoop()">รับค่า</button>
+    <p id="resultLoop"></p>
+
+    <p>Bubble Sort</p>
+    <button onclick="StartBubbleSort()">สุ่ม</button>
+    <p id="beforeSort"></p>
+    <p id="afterSort"></p>
+
+    <p>คำนวณ Factorial </p>
+    <label for="">กรอกเลข :</label>
+    <input type="number" name="" id="factorial">
+    <button onclick="calculateFactorial()">คํานวณ</button>
+    <p id="factorialResult"></p>
+
+
+    <p>คำนวณ Fibonacci </p>
+    <label for="">กรอกเลข :</label>
+    <input type="number" name="" id="fibonacci">
+    <button onclick="calculateFibonacci()">คํานวณ</button>
+    <p id="fibonacciResult"></p>
+</body>
+    <script src="script.js"></script>
+</html>
